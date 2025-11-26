@@ -33,7 +33,9 @@ void main() {
 
   // Usando forEach
   print("\nUsando forEach:");
-  frutas.forEach((fruta) => print("Fruta: $fruta"));
+  for (var fruta in frutas) {
+    print("Fruta: $fruta");
+  }
 
   // Operações com Sets
   Set<int> numeros1 = {1, 2, 3, 4, 5};

@@ -32,7 +32,7 @@ void main() {
 
   List<Animal> animais = [Cachorro(), Gato(), Vaca()];
 
-  animais.forEach((animal) {
+  for (var animal in animais) {
     animal.emitirSom();
-  });
+  }
 }

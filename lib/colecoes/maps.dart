@@ -32,13 +32,15 @@ void main() {
 
   // Iterando sobre as chaves
   print("\nIterando sobre as chaves:");
-  estados.keys.forEach((chave) {
+  for (var chave in estados.keys) {
     print("Chave: $chave, Valor: ${estados[chave]}");
-  });
+  }
 
   // Iterando sobre os valores
   print("\nIterando sobre os valores:");
-  estados.values.forEach((valor) => print("Valor: $valor"));
+  for (var valor in estados.values) {
+    print("Valor: $valor");
+  }
 
   // Iterando sobre as entradas (chave-valor)
   print("\nIterando sobre as entradas:");

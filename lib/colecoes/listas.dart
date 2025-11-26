@@ -33,7 +33,9 @@ void main() {
 
   // Usando forEach
   print("\nUsando forEach:");
-  nomes.forEach((nome) => print("Nome: $nome"));
+  for (var nome in nomes) {
+    print("Nome: $nome");
+  }
 
   // Lista de números
   List<int> numeros = [1, 2, 3, 4, 5];

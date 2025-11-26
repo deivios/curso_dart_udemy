@@ -29,7 +29,7 @@ void main() {
 
   final multiplicacao = calculadora.multiplicar(30, 497.25);
   
-  print("multiplicacao: ${multiplicacao}");
+  print("multiplicacao: $multiplicacao");
 
   final divisao = calculadora.dividir(49, 7);
 

@@ -1,5 +1,4 @@
 import 'package:curso_dart_udemy/programacao_assincrona/services/posts_api.dart';
-import 'package:dio/dio.dart';
 
 void main() async {
   final postsApi = PostsApi();

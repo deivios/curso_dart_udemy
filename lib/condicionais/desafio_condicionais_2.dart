@@ -15,9 +15,9 @@ void main() {
     print("Nome: $nome");
   }
 
-  nomes.forEach((nome) {
+  for (var nome in nomes) {
     print("Nome: $nome");
-  });
+  }
 
   final novosNomes = nomes.map((nome) => "Nomes: $nome").toList();
   print(novosNomes);
